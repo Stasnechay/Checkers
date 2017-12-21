@@ -1,0 +1,55 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.doska {
+	margin: 50px auto;
+	width: 1220px;
+	height: 1220px;
+	background-color: #E1CBAE;
+	border: 10px solid black;
+
+}
+
+.square {
+	padding: 0;
+	margin: 0;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+
+.doska li {
+ 	display: inline-block;
+ 	width: 150px;
+ 	height: 150px;
+	float: left;
+}
+.square li:nth-child(2n) {
+	background-color: black;
+	
+}
+.second-row li:nth-child(odd) {
+	background-color: black;
+}
+
+.checkers-img .square li:nth-child(2n) {
+	background-image: url(../img/red-checker.png);
+	background-size: 70% 70%;
+    background-position:  center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+ .checkers-img .second-row li:nth-child(odd) {
+ 	background-image: url(../img/red-checker.png);
+	background-size: 70% 70%;
+    background-position:  center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+ 
